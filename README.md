@@ -1,14 +1,14 @@
 # ComfyUI-PythonNode
 A custom ComfyUI node that allows users to execute arbitrary Python code with a single input (value) and output (result), enabling flexible processing of the input value using any Python code before assigning the final result to result. It also captures print() output and exceptions for debugging.
 
-![微信截图_20250316210421](https://github.com/user-attachments/assets/7a6e9b83-9895-49a3-a502-288a20f4f950)
-
 # Features
 * Dynamic Input/Output Type: The node accepts any type (ANY_TYPE) as input (value) and ensures the output (result) matches the upstream/downstream type.
 * Python Code Execution: Write and execute Python code in a multiline text box (code).
 * Debug Output: Captures print() statements and exceptions, outputting them to debug_output as a string.
 * Menu Integration: Appears in the right-click "Add Node" menu under the python_node category as "Execute Python Code".
 * Type Safety: Enforces that result must be explicitly assigned in the code to maintain type consistency.
+![微信截图_20250316210421](https://github.com/user-attachments/assets/7a6e9b83-9895-49a3-a502-288a20f4f950)
+
 
 # Installation
 Clone or Download:
